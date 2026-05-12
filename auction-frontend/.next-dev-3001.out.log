@@ -1,0 +1,10 @@
+
+> auction-frontend@0.1.0 predev
+> node scripts/prepare-dev.mjs
+
+[prepare-dev] cleared .next\dev
+
+> auction-frontend@0.1.0 dev
+> next dev --port 3001
+
+[?25h

@@ -1,0 +1,26 @@
+
+> auction-frontend@0.1.0 predev
+> node scripts/prepare-dev.mjs
+
+
+> auction-frontend@0.1.0 dev
+> next dev --port 3010
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3010
+- Network:       http://26.79.8.177:3010
+✓ Ready in 555ms
+Creating turbopack project {
+  dir: 'C:\\Users\\khunp\\Desktop\\WebApp\\auction-frontend',
+  testMode: true
+}
+
+ GET /tracking 200 in 2.2s (next.js: 1740ms, application-code: 449ms)
+ GET /login 200 in 2.5s (next.js: 1844ms, proxy.ts: 267ms, application-code: 363ms)
+ GET / 200 in 2.6s (next.js: 2.2s, application-code: 408ms)
+ GET / 200 in 265ms (next.js: 6ms, application-code: 259ms)
+✓ Compiled in 242ms
+✓ Compiled in 56ms
+✓ Compiled in 0ms
+✓ Compiled in 40ms
+  Reload env: .env.local
