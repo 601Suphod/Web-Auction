@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(rm -f routes/mockApiRoutes.js routes/auctionRoutes.js data/store.js)",
+      "Bash(rm -rf controllers utils)",
+      "Read(//c/c/Users/khunp/Desktop/WebApp/auction-backend/**)",
+      "Bash(cd /c/Users/khunp/Desktop/WebApp/auction-frontend/src && wc -l app/\\\\\\(member\\\\\\)/*/page.tsx app/auction/\\\\[id\\\\]/page.tsx app/product/\\\\[id\\\\]/page.tsx app/page.tsx components/AuctionCard.tsx components/Navbar.tsx 2>/dev/null)",
+      "Bash(node --check src/app.js)"
+    ]
+  }
+}
